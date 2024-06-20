@@ -1,0 +1,45 @@
+.hero-section {
+    background-image: url('background.jpg');
+    background-size: cover;
+    height: 600px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    margin-top:auto
+  }
+
+  
+  .about-section {
+    padding: 80px 0;
+    text-align: center;
+  }
+  .features-section {
+    padding: 80px 0;
+    text-align: center;
+    justify-content: space-between;
+  }
+  .contact-section {
+    padding: 10px 0;
+    background-color: #f8f9fa;
+    text-align: left;
+  }
+  .footer {
+    background-color: rgb(42, 50, 50);
+    color: #fff;
+    padding: 12px 0;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+  }
+  .card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
