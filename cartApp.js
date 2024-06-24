@@ -34,7 +34,6 @@ function displayCart() {
       id: formData.get('itemId'),
       name: formData.get('itemName'),
       price: parseFloat(formData.get('itemPrice')),
-      quantity: parseInt(formData.get('itemQuantity'))
     };
     addItem(item);
     displayCart();
