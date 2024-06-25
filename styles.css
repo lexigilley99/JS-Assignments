@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -77,3 +78,84 @@ button:focus {
     text-decoration: line-through;
     color: lightseagreen;
 }
+=======
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-color:lightslategray;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px lightseagreen;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+label {
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#new-todo-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid lightseagreen;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-style: oblique;
+    background-color: lightseagreen;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: darkcyan;
+}
+
+button:focus {
+    outline: none;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: lightseagreen;
+}
+>>>>>>> feae8c898c7d248c238326ba750bbdf93caa1cd8
