@@ -1,3 +1,77 @@
 body {
-    background-color: light red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px red;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#gameControls {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:disabled {
+    background-color: green;
+    cursor: not-allowed;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#gameOutcome {
+    margin-bottom: 20px;
+}
+
+#roundNumber {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+#roundOutcome {
+    font-size: 18px;
+}
+
+#scoreboard {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+.playerScore {
+    flex: 1;
+    font-size: 16px;
+    margin: 5px;
+}
+

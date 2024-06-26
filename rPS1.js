@@ -95,3 +95,4 @@ function disableButtons() {
     document.getElementById('startGame').disabled = true;
     document.getElementById('playRound').disabled = true;
 }
+
